@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.000591] (hello) JobQueued: {'identifier': 'hello', 'dependencies': OrderedDict()}
+[0.001066] (hello) JobStarted: {'identifier': 'hello'}
+[0.015582] (hello) JobProgress: {'identifier': 'hello', 'progress': 'cmake'}
+[0.016927] (hello) JobProgress: {'identifier': 'hello', 'progress': 'build'}
+[0.018206] (hello) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tmem-orin8/tlab_practice_pacage/hello/build/hello', '--', '-j6', '-l6'], 'cwd': '/home/tmem-orin8/tlab_practice_pacage/hello/build/hello', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tmem-orin8'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tmem-orin8'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/tmem-orin8/tlab_practice_pacage'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2291'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tmem-orin8'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tmem-orin8'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tmemorin8:@/tmp/.ICE-unix/2268,unix/tmemorin8:/tmp/.ICE-unix/2268'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b171825_8680_47d8_88f4_51b668dda03f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-18de7aabac.sock'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tmem-orin8/tlab_practice_pacage/hello/build/hello'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.070605] (hello) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099500] (-) TimerEvent: {}
+[0.200143] (-) TimerEvent: {}
+[0.300800] (-) TimerEvent: {}
+[0.364529] (hello) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400959] (-) TimerEvent: {}
+[0.442899] (hello) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.447590] (hello) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.458699] (hello) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.475774] (hello) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.498012] (hello) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.501039] (-) TimerEvent: {}
+[0.556401] (hello) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.558644] (hello) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.601238] (-) TimerEvent: {}
+[0.701991] (-) TimerEvent: {}
+[0.734710] (hello) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.802118] (-) TimerEvent: {}
+[0.902734] (-) TimerEvent: {}
+[0.972852] (hello) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.001833] (hello) StdoutLine: {'line': b'-- Generating done\n'}
+[1.002838] (-) TimerEvent: {}
+[1.015074] (hello) StdoutLine: {'line': b'-- Build files have been written to: /home/tmem-orin8/tlab_practice_pacage/hello/build/hello\n'}
+[1.092485] (hello) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hello.dir/src/main.cpp.o\x1b[0m\n'}
+[1.093224] (hello) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hello.dir/src/hello_node.cpp.o\x1b[0m\n'}
+[1.103009] (-) TimerEvent: {}
+[1.203675] (-) TimerEvent: {}
+[1.304369] (-) TimerEvent: {}
+[1.405055] (-) TimerEvent: {}
+[1.505721] (-) TimerEvent: {}
+[1.606436] (-) TimerEvent: {}
+[1.707148] (-) TimerEvent: {}
+[1.807844] (-) TimerEvent: {}
+[1.908560] (-) TimerEvent: {}
+[2.009274] (-) TimerEvent: {}
+[2.110030] (-) TimerEvent: {}
+[2.210747] (-) TimerEvent: {}
+[2.311485] (-) TimerEvent: {}
+[2.412199] (-) TimerEvent: {}
+[2.512957] (-) TimerEvent: {}
+[2.613698] (-) TimerEvent: {}
+[2.714462] (-) TimerEvent: {}
+[2.815287] (-) TimerEvent: {}
+[2.915994] (-) TimerEvent: {}
+[3.016723] (-) TimerEvent: {}
+[3.117466] (-) TimerEvent: {}
+[3.218223] (-) TimerEvent: {}
+[3.319084] (-) TimerEvent: {}
+[3.419794] (-) TimerEvent: {}
+[3.520506] (-) TimerEvent: {}
+[3.621213] (-) TimerEvent: {}
+[3.721937] (-) TimerEvent: {}
+[3.822649] (-) TimerEvent: {}
+[3.923438] (-) TimerEvent: {}
+[4.024185] (-) TimerEvent: {}
+[4.124910] (-) TimerEvent: {}
+[4.225625] (-) TimerEvent: {}
+[4.326353] (-) TimerEvent: {}
+[4.427060] (-) TimerEvent: {}
+[4.527777] (-) TimerEvent: {}
+[4.628473] (-) TimerEvent: {}
+[4.729182] (-) TimerEvent: {}
+[4.829895] (-) TimerEvent: {}
+[4.930624] (-) TimerEvent: {}
+[5.031415] (-) TimerEvent: {}
+[5.132284] (-) TimerEvent: {}
+[5.233000] (-) TimerEvent: {}
+[5.333704] (-) TimerEvent: {}
+[5.434425] (-) TimerEvent: {}
+[5.535140] (-) TimerEvent: {}
+[5.635829] (-) TimerEvent: {}
+[5.736537] (-) TimerEvent: {}
+[5.837657] (-) TimerEvent: {}
+[5.938457] (-) TimerEvent: {}
+[6.039177] (-) TimerEvent: {}
+[6.139915] (-) TimerEvent: {}
+[6.240692] (-) TimerEvent: {}
+[6.341416] (-) TimerEvent: {}
+[6.442182] (-) TimerEvent: {}
+[6.483663] (hello) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/hello_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.484512] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:7:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsharedPtr\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::TimerBase\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.484768] (hello) StderrLine: {'line': b'    7 |     rclcpp::TimerBase::\x1b[01;31m\x1b[KsharedPtr\x1b[m\x1b[K timer_;\n'}
+[6.484942] (hello) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.485100] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:12:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNpdeOptin\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KNodeOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.485259] (hello) StderrLine: {'line': b'   12 |     HelloNode(const rclcpp::\x1b[01;31m\x1b[KNpdeOptin\x1b[m\x1b[K &optins = rclcpp::NodeOptions());\n'}
+[6.485403] (hello) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.485536] (hello) StderrLine: {'line': b'      |                             \x1b[32m\x1b[KNodeOptions\x1b[m\x1b[K\n'}
+[6.485666] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:13:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KnodeOptions\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KNodeOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.485804] (hello) StderrLine: {'line': b'   13 |     HelloNode(const std::string& name_space, const rclcpp::\x1b[01;31m\x1b[KnodeOptions\x1b[m\x1b[K& options = rclcpp::NodeOptions());\n'}
+[6.485936] (hello) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.486097] (hello) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[KNodeOptions\x1b[m\x1b[K\n'}
+[6.496432] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:12:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[Krclcpp::NodeOptions(rcutils_get_default_allocator())\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::NodeOptions\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst int&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.497152] (hello) StderrLine: {'line': b'   12 |     HelloNode(const rclcpp::NpdeOptin &optins = rclcpp::\x1b[01;31m\x1b[KNodeOptions()\x1b[m\x1b[K);\n'}
+[6.497340] (hello) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.497490] (hello) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.497660] (hello) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Krclcpp::NodeOptions\x1b[m\x1b[K\n'}
+[6.497793] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:13:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[Krclcpp::NodeOptions(rcutils_get_default_allocator())\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::NodeOptions\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst int&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.497928] (hello) StderrLine: {'line': b'   13 |     HelloNode(const std::string& name_space, const rclcpp::nodeOptions& options = rclcpp::\x1b[01;31m\x1b[KNodeOptions()\x1b[m\x1b[K);\n'}
+[6.498114] (hello) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.498248] (hello) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.498470] (hello) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[Krclcpp::NodeOptions\x1b[m\x1b[K\n'}
+[6.498656] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:4:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knew types may not be defined in a return type\n'}
+[6.498876] (hello) StderrLine: {'line': b'    4 | \x1b[01;31m\x1b[Kclass\x1b[m\x1b[K HelloNode : public rclcpp::Node\n'}
+[6.499014] (hello) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.499182] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:4:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K(perhaps a semicolon is missing after the definition of \xe2\x80\x98\x1b[01m\x1b[KHelloNode\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[6.499480] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:4:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn type specification for constructor invalid\n'}
+[6.499642] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/hello_node.cpp:3:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[KHelloNode::HelloNode(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.499781] (hello) StderrLine: {'line': b'    3 | \x1b[01;31m\x1b[KHelloNode\x1b[m\x1b[K::HelloNode(const rclcpp::NodeOptions &options) : HelloNode("", options) {}\n'}
+[6.499990] (hello) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.500410] (hello) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/hello_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.500564] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:4:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[KHelloNode::HelloNode(HelloNode&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.500916] (hello) StderrLine: {'line': b'    4 | class \x1b[01;36m\x1b[KHelloNode\x1b[m\x1b[K : public rclcpp::Node\n'}
+[6.501113] (hello) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.501257] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:4:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KHelloNode::HelloNode(const HelloNode&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.501416] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:13:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KHelloNode::HelloNode(const string&, const int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.501585] (hello) StderrLine: {'line': b'   13 |     \x1b[01;36m\x1b[KHelloNode\x1b[m\x1b[K(const std::string& name_space, const rclcpp::nodeOptions& options = rclcpp::NodeOptions());\n'}
+[6.501725] (hello) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.501854] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:12:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KHelloNode::HelloNode(const int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.502002] (hello) StderrLine: {'line': b'   12 |     \x1b[01;36m\x1b[KHelloNode\x1b[m\x1b[K(const rclcpp::NpdeOptin &optins = rclcpp::NodeOptions());\n'}
+[6.502136] (hello) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.502263] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:4:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass HelloNode\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[6.502395] (hello) StderrLine: {'line': b'    4 | class \x1b[01;36m\x1b[KHelloNode\x1b[m\x1b[K : public rclcpp::Node\n'}
+[6.502520] (hello) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.502645] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/hello_node.cpp:4:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcondt\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.502780] (hello) StderrLine: {'line': b'    4 | HelloNode::HelloNode(const std::string &name_space, \x1b[01;31m\x1b[Kcondt\x1b[m\x1b[K rclcpp::NodeOptions &options)\n'}
+[6.502902] (hello) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.503023] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/hello_node.cpp:4:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.503145] (hello) StderrLine: {'line': b'    4 | HelloNode::HelloNode(const std::string &name_space, condt rclcpp::NodeOptions \x1b[01;31m\x1b[K&\x1b[m\x1b[Koptions)\n'}
+[6.503267] (hello) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.503392] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/hello_node.cpp:4:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.503540] (hello) StderrLine: {'line': b'    4 | HelloNode::HelloNode\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std::string &name_space, condt rclcpp::NodeOptions\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K&\x1b[m\x1b[Koptions)\n'}
+[6.503678] (hello) StderrLine: {'line': b'      |                     \x1b[34m\x1b[K~\x1b[m\x1b[K                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[6.503804] (hello) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[6.503944] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/hello_node.cpp:4:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.504069] (hello) StderrLine: {'line': b'    4 | HelloNode::HelloNode(const std::string &name_space, condt rclcpp::NodeOptions &\x1b[01;31m\x1b[Koptions\x1b[m\x1b[K)\n'}
+[6.504250] (hello) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.516957] (hello) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[6.517595] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:7:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsharedPtr\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::TimerBase\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.517844] (hello) StderrLine: {'line': b'    7 |     rclcpp::TimerBase::\x1b[01;31m\x1b[KsharedPtr\x1b[m\x1b[K timer_;\n'}
+[6.518040] (hello) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.518191] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:12:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNpdeOptin\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KNodeOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.518343] (hello) StderrLine: {'line': b'   12 |     HelloNode(const rclcpp::\x1b[01;31m\x1b[KNpdeOptin\x1b[m\x1b[K &optins = rclcpp::NodeOptions());\n'}
+[6.518476] (hello) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.518700] (hello) StderrLine: {'line': b'      |                             \x1b[32m\x1b[KNodeOptions\x1b[m\x1b[K\n'}
+[6.518963] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:13:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KnodeOptions\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KNodeOptions\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.519131] (hello) StderrLine: {'line': b'   13 |     HelloNode(const std::string& name_space, const rclcpp::\x1b[01;31m\x1b[KnodeOptions\x1b[m\x1b[K& options = rclcpp::NodeOptions());\n'}
+[6.519265] (hello) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.519390] (hello) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[KNodeOptions\x1b[m\x1b[K\n'}
+[6.519514] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:15:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[6.519641] (hello) StderrLine: {'line': b'   15 | }\n'}
+[6.519760] (hello) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.519883] (hello) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[6.520061] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:12:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[Krclcpp::NodeOptions(rcutils_get_default_allocator())\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::NodeOptions\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst int&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.520248] (hello) StderrLine: {'line': b'   12 |     HelloNode(const rclcpp::NpdeOptin &optins = rclcpp::\x1b[01;31m\x1b[KNodeOptions()\x1b[m\x1b[K);\n'}
+[6.520491] (hello) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.520656] (hello) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.520788] (hello) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Krclcpp::NodeOptions\x1b[m\x1b[K\n'}
+[6.520920] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:13:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[Krclcpp::NodeOptions(rcutils_get_default_allocator())\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::NodeOptions\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst int&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.521087] (hello) StderrLine: {'line': b'   13 |     HelloNode(const std::string& name_space, const rclcpp::nodeOptions& options = rclcpp::\x1b[01;31m\x1b[KNodeOptions()\x1b[m\x1b[K);\n'}
+[6.521218] (hello) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.521346] (hello) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.521489] (hello) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[Krclcpp::NodeOptions\x1b[m\x1b[K\n'}
+[6.529082] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.529461] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/main.cpp:4:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KargV\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.529630] (hello) StderrLine: {'line': b'    4 |     rclcpp::init(argc,\x1b[01;31m\x1b[Kargv\x1b[m\x1b[K);\n'}
+[6.529771] (hello) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.529902] (hello) StderrLine: {'line': b'      |                       \x1b[32m\x1b[KargV\x1b[m\x1b[K\n'}
+[6.537695] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/main.cpp:3:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KargV\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.538176] (hello) StderrLine: {'line': b'    3 | int main(int argc,\x1b[01;35m\x1b[Kchar * argV[]\x1b[m\x1b[K){\n'}
+[6.538364] (hello) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.542305] (-) TimerEvent: {}
+[6.642942] (-) TimerEvent: {}
+[6.743662] (-) TimerEvent: {}
+[6.844380] (-) TimerEvent: {}
+[6.945094] (-) TimerEvent: {}
+[7.045807] (-) TimerEvent: {}
+[7.146541] (-) TimerEvent: {}
+[7.247238] (-) TimerEvent: {}
+[7.347957] (-) TimerEvent: {}
+[7.428499] (hello) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[7.429038] (hello) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[7.429235] (hello) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[7.429393] (hello) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[7.429542] (hello) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:1\x1b[m\x1b[K,\n'}
+[7.429679] (hello) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[7.429811] (hello) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = HelloNode; _Args = {}; _Tp = HelloNode]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.429985] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = HelloNode; _Args = {}; _Tp = HelloNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<HelloNode>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.430203] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = HelloNode; _Alloc = std::allocator<HelloNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.430357] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = HelloNode; _Alloc = std::allocator<HelloNode>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.430494] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<HelloNode>; _Args = {}; _Tp = HelloNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.430624] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<HelloNode>; _Args = {}; _Tp = HelloNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.430751] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = HelloNode; _Alloc = std::allocator<HelloNode>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.430879] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = HelloNode; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.431004] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/main.cpp:6:44:\x1b[m\x1b[K   required from here\n'}
+[7.431145] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid initialization of reference of type \xe2\x80\x98\x1b[01m\x1b[Kconst int&\x1b[m\x1b[K\xe2\x80\x99 from expression of type \xe2\x80\x98\x1b[01m\x1b[Krclcpp::NodeOptions\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.431273] (hello) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[7.431398] (hello) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.431522] (hello) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[7.431643] (hello) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tmem-orin8/tlab_practice_pacage/hello/include/hello/hello_node.hpp:12:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin passing argument 1 of \xe2\x80\x98\x1b[01m\x1b[KHelloNode::HelloNode(const int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.431896] (hello) StderrLine: {'line': b'   12 |     HelloNode(\x1b[01;36m\x1b[Kconst rclcpp::NpdeOptin &optins = rclcpp::NodeOptions()\x1b[m\x1b[K);\n'}
+[7.432045] (hello) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.448192] (-) TimerEvent: {}
+[7.533451] (hello) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hello.dir/build.make:90: CMakeFiles/hello.dir/src/hello_node.cpp.o] Error 1\n'}
+[7.534017] (hello) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[7.548373] (-) TimerEvent: {}
+[7.603022] (hello) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hello.dir/build.make:76: CMakeFiles/hello.dir/src/main.cpp.o] Error 1\n'}
+[7.603655] (hello) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello.dir/all] Error 2\n'}
+[7.604526] (hello) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.610412] (hello) CommandEnded: {'returncode': 2}
+[7.642286] (hello) JobEnded: {'identifier': 'hello', 'rc': 2}
+[7.648456] (-) TimerEvent: {}
+[7.654811] (-) EventReactorShutdown: {}

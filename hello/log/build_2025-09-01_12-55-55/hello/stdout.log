@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target hello[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/hello.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/hello.dir/src/hello_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hello[0m
+[100%] Built target hello
+-- Install configuration: ""
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/lib/hello/hello
+-- Set runtime path of "/home/tmem-orin8/tlab_practice_pacage/hello/install/hello/lib/hello/hello" to ""
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/ament_index/resource_index/package_run_dependencies/hello
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/ament_index/resource_index/parent_prefix_path/hello
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/environment/ament_prefix_path.sh
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/environment/ament_prefix_path.dsv
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/environment/path.sh
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/environment/path.dsv
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/local_setup.bash
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/local_setup.sh
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/local_setup.zsh
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/local_setup.dsv
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/package.dsv
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/ament_index/resource_index/packages/hello
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/cmake/helloConfig.cmake
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/cmake/helloConfig-version.cmake
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/package.xml

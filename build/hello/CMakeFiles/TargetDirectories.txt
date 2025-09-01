@@ -1,0 +1,10 @@
+/home/tmem-orin8/tlab_practice_pacage/build/hello/CMakeFiles/uninstall.dir
+/home/tmem-orin8/tlab_practice_pacage/build/hello/CMakeFiles/hello_uninstall.dir
+/home/tmem-orin8/tlab_practice_pacage/build/hello/CMakeFiles/hello.dir
+/home/tmem-orin8/tlab_practice_pacage/build/hello/CMakeFiles/test.dir
+/home/tmem-orin8/tlab_practice_pacage/build/hello/CMakeFiles/edit_cache.dir
+/home/tmem-orin8/tlab_practice_pacage/build/hello/CMakeFiles/rebuild_cache.dir
+/home/tmem-orin8/tlab_practice_pacage/build/hello/CMakeFiles/list_install_components.dir
+/home/tmem-orin8/tlab_practice_pacage/build/hello/CMakeFiles/install.dir
+/home/tmem-orin8/tlab_practice_pacage/build/hello/CMakeFiles/install/local.dir
+/home/tmem-orin8/tlab_practice_pacage/build/hello/CMakeFiles/install/strip.dir

@@ -1,0 +1,2 @@
+Invoking command in '/home/tmem-orin8/tlab_practice_pacage/hello/build/hello': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/hello/build/hello -- -j6 -l6
+Invoked command in '/home/tmem-orin8/tlab_practice_pacage/hello/build/hello' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/hello/build/hello -- -j6 -l6

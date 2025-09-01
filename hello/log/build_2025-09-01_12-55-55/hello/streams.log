@@ -1,0 +1,27 @@
+[0.020s] Invoking command in '/home/tmem-orin8/tlab_practice_pacage/hello/build/hello': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/hello/build/hello -- -j6 -l6
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target hello[0m
+[0.157s] [ 33%] [32mBuilding CXX object CMakeFiles/hello.dir/src/main.cpp.o[0m
+[0.158s] [ 66%] [32mBuilding CXX object CMakeFiles/hello.dir/src/hello_node.cpp.o[0m
+[7.036s] [100%] [32m[1mLinking CXX executable hello[0m
+[7.314s] [100%] Built target hello
+[7.342s] Invoked command in '/home/tmem-orin8/tlab_practice_pacage/hello/build/hello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/hello/build/hello -- -j6 -l6
+[7.366s] Invoking command in '/home/tmem-orin8/tlab_practice_pacage/hello/build/hello': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tmem-orin8/tlab_practice_pacage/hello/build/hello
+[7.384s] -- Install configuration: ""
+[7.385s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/lib/hello/hello
+[7.386s] -- Set runtime path of "/home/tmem-orin8/tlab_practice_pacage/hello/install/hello/lib/hello/hello" to ""
+[7.386s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/ament_index/resource_index/package_run_dependencies/hello
+[7.387s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/ament_index/resource_index/parent_prefix_path/hello
+[7.388s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/environment/ament_prefix_path.sh
+[7.388s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/environment/ament_prefix_path.dsv
+[7.388s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/environment/path.sh
+[7.389s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/environment/path.dsv
+[7.389s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/local_setup.bash
+[7.389s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/local_setup.sh
+[7.389s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/local_setup.zsh
+[7.390s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/local_setup.dsv
+[7.390s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/package.dsv
+[7.391s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/ament_index/resource_index/packages/hello
+[7.391s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/cmake/helloConfig.cmake
+[7.392s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/cmake/helloConfig-version.cmake
+[7.392s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/hello/install/hello/share/hello/package.xml
+[7.398s] Invoked command in '/home/tmem-orin8/tlab_practice_pacage/hello/build/hello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tmem-orin8/tlab_practice_pacage/hello/build/hello

@@ -1,0 +1,4 @@
+Invoking command in '/home/tmem-orin8/tlab_practice_pacage/build/hello': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tmem-orin8/tlab_practice_pacage/hello -DCMAKE_INSTALL_PREFIX=/home/tmem-orin8/tlab_practice_pacage/install/hello
+Invoked command in '/home/tmem-orin8/tlab_practice_pacage/build/hello' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tmem-orin8/tlab_practice_pacage/hello -DCMAKE_INSTALL_PREFIX=/home/tmem-orin8/tlab_practice_pacage/install/hello
+Invoking command in '/home/tmem-orin8/tlab_practice_pacage/build/hello': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/build/hello -- -j6 -l6
+Invoked command in '/home/tmem-orin8/tlab_practice_pacage/build/hello' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/build/hello -- -j6 -l6

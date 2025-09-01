@@ -1,0 +1,17 @@
+[0.021s] Invoking command in '/home/tmem-orin8/tlab_practice_pacage/build/hello': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/build/hello -- -j6 -l6
+[0.122s] [ 33%] [32mBuilding CXX object CMakeFiles/hello.dir/src/main.cpp.o[0m
+[0.124s] [ 66%] [32mBuilding CXX object CMakeFiles/hello.dir/src/hello_node.cpp.o[0m
+[0.147s] [01m[K/home/tmem-orin8/tlab_practice_pacage/hello/src/main.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Khello/hello_node.hpp: No such file or directory
+[0.147s]     1 | #include [01;31m[K"hello/hello_node.hpp"[m[K
+[0.148s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.149s] compilation terminated.
+[0.149s] [01m[K/home/tmem-orin8/tlab_practice_pacage/hello/src/hello_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Khello/hello_node.hpp: No such file or directory
+[0.149s]     1 | #include [01;31m[K"hello/hello_node.hpp"[m[K
+[0.149s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.149s] compilation terminated.
+[0.151s] gmake[2]: *** [CMakeFiles/hello.dir/build.make:90: CMakeFiles/hello.dir/src/hello_node.cpp.o] Error 1
+[0.152s] gmake[2]: *** Waiting for unfinished jobs....
+[0.152s] gmake[2]: *** [CMakeFiles/hello.dir/build.make:76: CMakeFiles/hello.dir/src/main.cpp.o] Error 1
+[0.153s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello.dir/all] Error 2
+[0.153s] gmake: *** [Makefile:146: all] Error 2
+[0.159s] Invoked command in '/home/tmem-orin8/tlab_practice_pacage/build/hello' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/build/hello -- -j6 -l6
