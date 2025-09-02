@@ -1,0 +1,104 @@
+[0.218s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.218s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8e4a4910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8e659db0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8e659db0>>)
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.540s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tmem-orin8/tlab_practice_pacage/camera_test'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.570s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'camera_test'
+[0.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.612s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tmem-orin8/tlab_practice_pacage/camera_test/install
+[0.615s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'camera_test' build argument 'cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'camera_test' build argument 'cmake_target' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'camera_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'camera_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'camera_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'camera_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'camera_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'camera_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'camera_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.723s] DEBUG:colcon.colcon_core.verb:Building package 'camera_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test', 'merge_install': False, 'path': '/home/tmem-orin8/tlab_practice_pacage/camera_test', 'symlink_install': False, 'test_result_base': None}
+[0.723s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.726s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tmem-orin8/tlab_practice_pacage/camera_test' with build type 'ament_cmake'
+[0.726s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tmem-orin8/tlab_practice_pacage/camera_test'
+[0.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test -- -j6 -l6
+[0.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test -- -j6 -l6
+[0.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test
+[0.942s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_test)
+[0.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test' for CMake module files
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test' for CMake config files
+[0.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_test', 'cmake_prefix_path')
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/hook/cmake_prefix_path.ps1'
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/hook/cmake_prefix_path.dsv'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/hook/cmake_prefix_path.sh'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/lib'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/bin'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/lib/pkgconfig/camera_test.pc'
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/lib/python3.10/site-packages'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/bin'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.ps1'
+[0.969s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.dsv'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.sh'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.bash'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.zsh'
+[0.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/colcon-core/packages/camera_test)
+[0.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_test)
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test' for CMake module files
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test' for CMake config files
+[0.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_test', 'cmake_prefix_path')
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/hook/cmake_prefix_path.ps1'
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/hook/cmake_prefix_path.dsv'
+[0.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/hook/cmake_prefix_path.sh'
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/lib'
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/bin'
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/lib/pkgconfig/camera_test.pc'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/lib/python3.10/site-packages'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/bin'
+[0.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.ps1'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.dsv'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.sh'
+[0.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.bash'
+[0.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.zsh'
+[0.999s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/colcon-core/packages/camera_test)
+[0.999s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.001s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.001s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.001s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.016s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.016s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.016s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.055s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.056s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/local_setup.ps1'
+[1.059s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/_local_setup_util_ps1.py'
+[1.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/setup.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/local_setup.sh'
+[1.066s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/_local_setup_util_sh.py'
+[1.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/setup.sh'
+[1.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/local_setup.bash'
+[1.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/setup.bash'
+[1.073s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/local_setup.zsh'
+[1.074s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tmem-orin8/tlab_practice_pacage/camera_test/install/setup.zsh'

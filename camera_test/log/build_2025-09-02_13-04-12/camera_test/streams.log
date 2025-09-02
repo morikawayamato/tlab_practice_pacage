@@ -1,0 +1,24 @@
+[0.022s] Invoking command in '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test -- -j6 -l6
+[0.125s] [100%] Built target camera_test
+[0.152s] Invoked command in '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test -- -j6 -l6
+[0.177s] Invoking command in '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test
+[0.192s] -- Install configuration: ""
+[0.192s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/lib/camera_test/camera_test
+[0.192s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test//launch
+[0.193s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test//launch/camera_test_launch.py
+[0.194s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/ament_index/resource_index/package_run_dependencies/camera_test
+[0.194s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/ament_index/resource_index/parent_prefix_path/camera_test
+[0.194s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/environment/ament_prefix_path.sh
+[0.195s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/environment/ament_prefix_path.dsv
+[0.195s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/environment/path.sh
+[0.195s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/environment/path.dsv
+[0.195s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/local_setup.bash
+[0.195s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/local_setup.sh
+[0.195s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/local_setup.zsh
+[0.196s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/local_setup.dsv
+[0.196s] -- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.dsv
+[0.196s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/ament_index/resource_index/packages/camera_test
+[0.196s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/cmake/camera_testConfig.cmake
+[0.196s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/cmake/camera_testConfig-version.cmake
+[0.196s] -- Up-to-date: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.xml
+[0.201s] Invoked command in '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test
