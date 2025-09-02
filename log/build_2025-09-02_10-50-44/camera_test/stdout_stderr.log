@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_test[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/camera_test.dir/src/main.cpp.o[0m
+[01m[K/home/tmem-orin8/tlab_practice_pacage/camera_test/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tmem-orin8/tlab_practice_pacage/camera_test/src/main.cpp:4:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    4 |     [01;31m[Krclcpp[m[K::init(argc,argv);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/tmem-orin8/tlab_practice_pacage/camera_test/src/main.cpp:6:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    6 |     [01;31m[Krclcpp[m[K::shutdown();
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/camera_test.dir/build.make:76: CMakeFiles/camera_test.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

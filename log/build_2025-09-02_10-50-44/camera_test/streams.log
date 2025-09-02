@@ -1,0 +1,14 @@
+[0.069s] Invoking command in '/home/tmem-orin8/tlab_practice_pacage/build/camera_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/build/camera_test -- -j6 -l6
+[0.155s] [35m[1mConsolidate compiler generated dependencies of target camera_test[0m
+[0.176s] [ 33%] [32mBuilding CXX object CMakeFiles/camera_test.dir/src/main.cpp.o[0m
+[0.197s] [01m[K/home/tmem-orin8/tlab_practice_pacage/camera_test/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.197s] [01m[K/home/tmem-orin8/tlab_practice_pacage/camera_test/src/main.cpp:4:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.197s]     4 |     [01;31m[Krclcpp[m[K::init(argc,argv);
+[0.197s]       |     [01;31m[K^~~~~~[m[K
+[0.198s] [01m[K/home/tmem-orin8/tlab_practice_pacage/camera_test/src/main.cpp:6:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.198s]     6 |     [01;31m[Krclcpp[m[K::shutdown();
+[0.198s]       |     [01;31m[K^~~~~~[m[K
+[0.200s] gmake[2]: *** [CMakeFiles/camera_test.dir/build.make:76: CMakeFiles/camera_test.dir/src/main.cpp.o] Error 1
+[0.200s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_test.dir/all] Error 2
+[0.200s] gmake: *** [Makefile:146: all] Error 2
+[0.208s] Invoked command in '/home/tmem-orin8/tlab_practice_pacage/build/camera_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tmem-orin8/tlab_practice_pacage/build/camera_test -- -j6 -l6

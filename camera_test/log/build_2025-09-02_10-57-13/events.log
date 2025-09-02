@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (camera_test) JobQueued: {'identifier': 'camera_test', 'dependencies': OrderedDict()}
+[0.001124] (camera_test) JobStarted: {'identifier': 'camera_test'}
+[0.016159] (camera_test) JobProgress: {'identifier': 'camera_test', 'progress': 'cmake'}
+[0.017161] (camera_test) Command: {'cmd': ['/usr/bin/cmake', '/home/tmem-orin8/tlab_practice_pacage/camera_test', '-DCMAKE_INSTALL_PREFIX=/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test'], 'cwd': '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tmem-orin8'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tmem-orin8'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/tmem-orin8/tlab_practice_pacage'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2228'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tmem-orin8/tlab_practice_pacage/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tmem-orin8'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tmem-orin8'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tmemorin8:@/tmp/.ICE-unix/2204,unix/tmemorin8:/tmp/.ICE-unix/2204'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75cc8f19_fc32_496f_8de1_0ceaf2fc15d5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-246ea87524.sock'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tmem-orin8/tlab_practice_pacage/install/camera_test:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tmem-orin8/tlab_practice_pacage/install/camera_test:/opt/ros/humble')]), 'shell': False}
+[0.099438] (-) TimerEvent: {}
+[0.136317] (camera_test) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199604] (-) TimerEvent: {}
+[0.249427] (camera_test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.266745] (camera_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299780] (-) TimerEvent: {}
+[0.400450] (-) TimerEvent: {}
+[0.404476] (camera_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.424929] (camera_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.425673] (camera_test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.426405] (camera_test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.434446] (camera_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500616] (-) TimerEvent: {}
+[0.601327] (-) TimerEvent: {}
+[0.602027] (camera_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.620233] (camera_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.621086] (camera_test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.622761] (camera_test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.629177] (camera_test) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701481] (-) TimerEvent: {}
+[0.802082] (-) TimerEvent: {}
+[0.902716] (-) TimerEvent: {}
+[0.977786] (camera_test) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.002878] (-) TimerEvent: {}
+[1.103723] (-) TimerEvent: {}
+[1.175352] (camera_test) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.203908] (-) TimerEvent: {}
+[1.256659] (camera_test) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.264940] (camera_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.279451] (camera_test) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.302811] (camera_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.303964] (-) TimerEvent: {}
+[1.331053] (camera_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.404182] (-) TimerEvent: {}
+[1.407543] (camera_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.411893] (camera_test) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.504354] (-) TimerEvent: {}
+[1.559487] (camera_test) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.604559] (-) TimerEvent: {}
+[1.612695] (camera_test) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.688771] (camera_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.702999] (camera_test) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.704623] (-) TimerEvent: {}
+[1.805213] (-) TimerEvent: {}
+[1.847540] (camera_test) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.848760] (camera_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.905381] (-) TimerEvent: {}
+[2.005216] (camera_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.005831] (-) TimerEvent: {}
+[2.008969] (camera_test) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.106034] (-) TimerEvent: {}
+[2.124382] (camera_test) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.206208] (-) TimerEvent: {}
+[2.303945] (camera_test) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.304438] (camera_test) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tmem-orin8/tlab_practice_pacage/camera_test/include>\n'}
+[2.304596] (camera_test) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.306257] (-) TimerEvent: {}
+[2.306531] (camera_test) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.309164] (camera_test) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.310951] (camera_test) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.320068] (camera_test) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.320540] (camera_test) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.322283] (camera_test) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.325009] (camera_test) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.343881] (camera_test) StdoutLine: {'line': b'-- Generating done\n'}
+[2.351523] (camera_test) StdoutLine: {'line': b'-- Build files have been written to: /home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test\n'}
+[2.374872] (camera_test) CommandEnded: {'returncode': 0}
+[2.376216] (camera_test) JobProgress: {'identifier': 'camera_test', 'progress': 'build'}
+[2.377492] (camera_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test', '--', '-j6', '-l6'], 'cwd': '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tmem-orin8'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tmem-orin8'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/tmem-orin8/tlab_practice_pacage'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2228'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tmem-orin8/tlab_practice_pacage/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tmem-orin8'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tmem-orin8'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tmemorin8:@/tmp/.ICE-unix/2204,unix/tmemorin8:/tmp/.ICE-unix/2204'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75cc8f19_fc32_496f_8de1_0ceaf2fc15d5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-246ea87524.sock'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tmem-orin8/tlab_practice_pacage/install/camera_test:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tmem-orin8/tlab_practice_pacage/install/camera_test:/opt/ros/humble')]), 'shell': False}
+[2.406481] (-) TimerEvent: {}
+[2.478441] (camera_test) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/camera_test.dir/src/camera_node.cpp.o\x1b[0m\n'}
+[2.479469] (camera_test) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/camera_test.dir/src/main.cpp.o\x1b[0m\n'}
+[2.506645] (-) TimerEvent: {}
+[2.607283] (-) TimerEvent: {}
+[2.707937] (-) TimerEvent: {}
+[2.808721] (-) TimerEvent: {}
+[2.909956] (-) TimerEvent: {}
+[3.010653] (-) TimerEvent: {}
+[3.111709] (-) TimerEvent: {}
+[3.212394] (-) TimerEvent: {}
+[3.313077] (-) TimerEvent: {}
+[3.413794] (-) TimerEvent: {}
+[3.514560] (-) TimerEvent: {}
+[3.615220] (-) TimerEvent: {}
+[3.715897] (-) TimerEvent: {}
+[3.816587] (-) TimerEvent: {}
+[3.917250] (-) TimerEvent: {}
+[4.017945] (-) TimerEvent: {}
+[4.118670] (-) TimerEvent: {}
+[4.219389] (-) TimerEvent: {}
+[4.320079] (-) TimerEvent: {}
+[4.420751] (-) TimerEvent: {}
+[4.521417] (-) TimerEvent: {}
+[4.622084] (-) TimerEvent: {}
+[4.722740] (-) TimerEvent: {}
+[4.823392] (-) TimerEvent: {}
+[4.924057] (-) TimerEvent: {}
+[5.024735] (-) TimerEvent: {}
+[5.125428] (-) TimerEvent: {}
+[5.226101] (-) TimerEvent: {}
+[5.326797] (-) TimerEvent: {}
+[5.427457] (-) TimerEvent: {}
+[5.528132] (-) TimerEvent: {}
+[5.628811] (-) TimerEvent: {}
+[5.729499] (-) TimerEvent: {}
+[5.830205] (-) TimerEvent: {}
+[5.930870] (-) TimerEvent: {}
+[6.031569] (-) TimerEvent: {}
+[6.132242] (-) TimerEvent: {}
+[6.232915] (-) TimerEvent: {}
+[6.333605] (-) TimerEvent: {}
+[6.434279] (-) TimerEvent: {}
+[6.534951] (-) TimerEvent: {}
+[6.635612] (-) TimerEvent: {}
+[6.736259] (-) TimerEvent: {}
+[6.836915] (-) TimerEvent: {}
+[6.937585] (-) TimerEvent: {}
+[7.038259] (-) TimerEvent: {}
+[7.138921] (-) TimerEvent: {}
+[7.239622] (-) TimerEvent: {}
+[7.340295] (-) TimerEvent: {}
+[7.440969] (-) TimerEvent: {}
+[7.541626] (-) TimerEvent: {}
+[7.642332] (-) TimerEvent: {}
+[7.743001] (-) TimerEvent: {}
+[7.843697] (-) TimerEvent: {}
+[7.944377] (-) TimerEvent: {}
+[8.045052] (-) TimerEvent: {}
+[8.145741] (-) TimerEvent: {}
+[8.246478] (-) TimerEvent: {}
+[8.347222] (-) TimerEvent: {}
+[8.447972] (-) TimerEvent: {}
+[8.548784] (-) TimerEvent: {}
+[8.649583] (-) TimerEvent: {}
+[8.750420] (-) TimerEvent: {}
+[8.793418] (camera_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_test\x1b[0m\n'}
+[8.850607] (-) TimerEvent: {}
+[8.951296] (-) TimerEvent: {}
+[9.023155] (camera_test) StdoutLine: {'line': b'[100%] Built target camera_test\n'}
+[9.048902] (camera_test) CommandEnded: {'returncode': 0}
+[9.050805] (camera_test) JobProgress: {'identifier': 'camera_test', 'progress': 'install'}
+[9.051652] (-) TimerEvent: {}
+[9.073735] (camera_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test'], 'cwd': '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tmem-orin8'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tmem-orin8'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/tmem-orin8/tlab_practice_pacage'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2228'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tmem-orin8/tlab_practice_pacage/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tmem-orin8'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tmem-orin8'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tmemorin8:@/tmp/.ICE-unix/2204,unix/tmemorin8:/tmp/.ICE-unix/2204'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75cc8f19_fc32_496f_8de1_0ceaf2fc15d5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-246ea87524.sock'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tmem-orin8/tlab_practice_pacage/install/camera_test:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tmem-orin8/tlab_practice_pacage/camera_test/build/camera_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tmem-orin8/tlab_practice_pacage/install/camera_test:/opt/ros/humble')]), 'shell': False}
+[9.091543] (camera_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.092065] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/lib/camera_test/camera_test\n'}
+[9.092803] (camera_test) StdoutLine: {'line': b'-- Set runtime path of "/home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/lib/camera_test/camera_test" to ""\n'}
+[9.093098] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test//launch\n'}
+[9.093321] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test//launch/camera_test_launch.py\n'}
+[9.093729] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/ament_index/resource_index/package_run_dependencies/camera_test\n'}
+[9.094150] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/ament_index/resource_index/parent_prefix_path/camera_test\n'}
+[9.094604] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/environment/ament_prefix_path.sh\n'}
+[9.094869] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/environment/ament_prefix_path.dsv\n'}
+[9.095156] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/environment/path.sh\n'}
+[9.095441] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/environment/path.dsv\n'}
+[9.095728] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/local_setup.bash\n'}
+[9.096021] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/local_setup.sh\n'}
+[9.096340] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/local_setup.zsh\n'}
+[9.098514] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/local_setup.dsv\n'}
+[9.099085] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.dsv\n'}
+[9.099779] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/ament_index/resource_index/packages/camera_test\n'}
+[9.100326] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/cmake/camera_testConfig.cmake\n'}
+[9.100809] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/cmake/camera_testConfig-version.cmake\n'}
+[9.101045] (camera_test) StdoutLine: {'line': b'-- Installing: /home/tmem-orin8/tlab_practice_pacage/camera_test/install/camera_test/share/camera_test/package.xml\n'}
+[9.105075] (camera_test) CommandEnded: {'returncode': 0}
+[9.151801] (-) TimerEvent: {}
+[9.155906] (camera_test) JobEnded: {'identifier': 'camera_test', 'rc': 0}
+[9.157536] (-) EventReactorShutdown: {}

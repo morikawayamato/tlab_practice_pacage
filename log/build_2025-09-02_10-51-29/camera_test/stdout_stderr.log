@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_test[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/camera_test.dir/src/main.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable camera_test[0m
+[100%] Built target camera_test
+-- Install configuration: ""
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/lib/camera_test/camera_test
+-- Set runtime path of "/home/tmem-orin8/tlab_practice_pacage/install/camera_test/lib/camera_test/camera_test" to ""
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test//launch
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test//launch/camera_test_launch.py
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/ament_index/resource_index/package_run_dependencies/camera_test
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/ament_index/resource_index/parent_prefix_path/camera_test
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test/environment/ament_prefix_path.sh
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test/environment/ament_prefix_path.dsv
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test/environment/path.sh
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test/environment/path.dsv
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test/local_setup.bash
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test/local_setup.sh
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test/local_setup.zsh
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test/local_setup.dsv
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test/package.dsv
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/ament_index/resource_index/packages/camera_test
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test/cmake/camera_testConfig.cmake
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test/cmake/camera_testConfig-version.cmake
+-- Installing: /home/tmem-orin8/tlab_practice_pacage/install/camera_test/share/camera_test/package.xml

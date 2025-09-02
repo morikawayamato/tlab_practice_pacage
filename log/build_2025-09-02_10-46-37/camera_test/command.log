@@ -1,0 +1,2 @@
+Invoking command in '/home/tmem-orin8/tlab_practice_pacage/build/camera_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tmem-orin8/tlab_practice_pacage/camera_test -DCMAKE_INSTALL_PREFIX=/home/tmem-orin8/tlab_practice_pacage/install/camera_test
+Invoked command in '/home/tmem-orin8/tlab_practice_pacage/build/camera_test' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tmem-orin8/tlab_practice_pacage/camera_test -DCMAKE_INSTALL_PREFIX=/home/tmem-orin8/tlab_practice_pacage/install/camera_test

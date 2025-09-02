@@ -1,0 +1,10 @@
+/home/tmem-orin8/tlab_practice_pacage/build/camera_test/CMakeFiles/uninstall.dir
+/home/tmem-orin8/tlab_practice_pacage/build/camera_test/CMakeFiles/camera_test_uninstall.dir
+/home/tmem-orin8/tlab_practice_pacage/build/camera_test/CMakeFiles/camera_test.dir
+/home/tmem-orin8/tlab_practice_pacage/build/camera_test/CMakeFiles/test.dir
+/home/tmem-orin8/tlab_practice_pacage/build/camera_test/CMakeFiles/edit_cache.dir
+/home/tmem-orin8/tlab_practice_pacage/build/camera_test/CMakeFiles/rebuild_cache.dir
+/home/tmem-orin8/tlab_practice_pacage/build/camera_test/CMakeFiles/list_install_components.dir
+/home/tmem-orin8/tlab_practice_pacage/build/camera_test/CMakeFiles/install.dir
+/home/tmem-orin8/tlab_practice_pacage/build/camera_test/CMakeFiles/install/local.dir
+/home/tmem-orin8/tlab_practice_pacage/build/camera_test/CMakeFiles/install/strip.dir
