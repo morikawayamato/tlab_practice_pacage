@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ROS2 Camera Display (Base64 RGB8)</title>
+  <script src="https://cdn.jsdelivr.net/npm/roslib/build/roslib.min.js"></script>
+</head>
+<body>
+  <h2>ROS2 Camera Display (Base64 RGB8)</h2>
+  <p>ブラウザのコンソールで受信状況を確認できます（F12 → Console）</p>
+  <canvas id="camera"></canvas>
+
+  <script>
+    var ros = new ROSLIB.Ros({ url: 'ws://10.226.1.252:9090' });
+
+    ros.on('connection', () => console.log('Connected!'));
+    ros.on('error', e => console.log('Error:', e));
+    ros.on('close', () => console.log('Connection closed'));
+
+    var canvas = document.getElementById('camera');
+    var ctx = canvas.getContext('2d');
+    canvas.width = 640;
+    canvas.height = 480;
+
+    var imageTopic = new ROSLIB.Topic({
+      ros: ros,
+      name: '/image_raw',
+      messageType: 'sensor_msgs/msg/Image'
+    });
+
+    imageTopic.subscribe(function(msg) {
+      console.log('Message received!', msg.width, msg.height, msg.encoding, msg.data.length);
+
+      try {
+        // Base64 → Uint8Array
+        var binary_string = atob(msg.data);
+        var len = binary_string.length;
+        var rgbData = new Uint8Array(len);
+        for (var i = 0; i < len; i++) rgbData[i] = binary_string.charCodeAt(i);
+
+        // RGB → RGBA
+        var rgba = new Uint8ClampedArray(msg.width * msg.height * 4);
+        for (var i = 0, j = 0; i < rgbData.length; i += 3, j += 4) {
+          rgba[j]   = rgbData[i];
+          rgba[j+1] = rgbData[i+1];
+          rgba[j+2] = rgbData[i+2];
+          rgba[j+3] = 255; // alpha
+        }
+
+        // Canvas に描画
+        ctx.putImageData(new ImageData(rgba, msg.width, msg.height), 0, 0);
+
+      } catch(e) {
+        console.error('Error decoding or drawing image:', e);
+      }
+    });
+  </script>
+</body>
+</html>
